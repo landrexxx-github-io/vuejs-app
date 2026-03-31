@@ -17,12 +17,14 @@
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@primeuix/themes": "^2.0.3",
+    "@primevue/forms": "^4.5.4",
     "primeicons": "^7.0.0",
     "primevue": "^4.5.4",
     "tailwindcss-primeui": "^0.6.1",
     "vue": "^3.5.30",
     "vue-router": "^5.0.3",
-    "wrangler": "^4.78.0"
+    "wrangler": "^4.78.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
