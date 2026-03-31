@@ -8,6 +8,7 @@ const password = ref('')
 <template>
   <div class="min-h-screen flex justify-center items-start pt-16 px-4">
     <div class="w-full max-w-md space-y-5">
+      <h1>Sign In</h1>
       <FloatLabel variant="in">
         <IconField>
           <InputIcon class="pi pi-user" />
