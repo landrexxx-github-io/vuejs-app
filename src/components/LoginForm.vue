@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Button, FloatLabel, IconField, InputIcon, InputText } from 'primevue'
+import { Button, FloatLabel, IconField, InputIcon, InputText, Message } from 'primevue'
 import { ref } from 'vue'
 
 const username = ref('')
@@ -37,6 +37,11 @@ const password = ref('')
         <label for="in_password" class="font-light">Password</label>
       </FloatLabel>
       <Button label="Login" class="w-full" size="large" />
+      <div>
+        <Message v-show="!username" severity="error" variant="simple" size="small"
+          >Username is required</Message
+        >
+      </div>
     </div>
   </div>
 </template>
